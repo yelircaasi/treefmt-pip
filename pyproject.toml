@@ -1,0 +1,8 @@
+[project]
+name = "treefmt"
+version = "2.3.1"
+requires-python = ">3.0"
+dependencies = []
+
+[dependency-groups]
+dev = ["wheel"]
