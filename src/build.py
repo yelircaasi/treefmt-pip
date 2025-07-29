@@ -40,8 +40,8 @@ def convert_archive_to_wheel(
         license: str,
         compression_mode: Optional[str],
 ):
-    distribution_name = f'{name}_bin'  # If wheel names have a hyphen, the RECORD file is placed in the wrong .dist-info directory resulting in invalid wheels.
-    pypi_distribution_name = f'{name}-bin'
+    distribution_name = f'{name}'  # If wheel names have a hyphen, the RECORD file is placed in the wrong .dist-info directory resulting in invalid wheels.
+    pypi_distribution_name = f'{name}'
     contents = {}
 
     # Extract the command binary
