@@ -2,7 +2,7 @@
     description = "";
     inputs = {
         nixpkgs = {
-            url = "github:nixos/nixpkgs";
+            url = "github:nixos/nixpkgs/c57a028c30068aa2a7e00fa87300804dab748ff5";  # updated 2026-10-27
         };
 
         flake-utils = {
